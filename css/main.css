@@ -3,38 +3,195 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 100%
+}
+
+/*p {
+	font-size: 62.5%;
+}*/
+
 body {
-	background: url(../img/background.jpg) center center no-repeat fixed;
+	background: url(../img/background1.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 40px;
-	font-weight: 500;
-	line-height: 1.5em;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.3em;
 	color: white;
-	opacity: 0.7;
-	text-align: center;
+	padding-bottom: 30px;
+}
+
+.container {
+	position: relative;
+	width: 70%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.mainmessage p {
+	width: 60%;
+}
+
+header img {
+	width: 20%;
+}
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 5.5em;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2em;
+	margin: 20px 0 40px 0;
 }
 
 a {
 	text-decoration: none;
+	color: white;
 }
 
-.message {
-	margin-top: 150px;
-	padding-bottom: 30px;
-	margin-bottom: 100x;
-}
-
-.social_media {
-	font-weight: 300;
-	font-size: 25px;
+.mainmessage {
+	margin-top: 74px;
+	padding-bottom: 38px;
 }
 
 i {
 	color: white;
-	opacity: 0.7;
-	padding: 0 5px 0 10px;
+	padding: 7px 5px 0 10px;
+}
+
+.icons li {
+	margin-bottom: 30px;
+}
+
+li {
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+	padding-right: 20px;
+}
+
+li img {
+	width: 100px;
+	padding-left: 17px;
+}
+
+.icons p{
+	text-align: center;
+}
+
+/**********TABLET*******************************************/
+
+@media screen and (max-width: 768px) {
+
+header img {
+	width: 30%;
+}
+
+.container {
+	width: 85%;
+	max-width: 700px;
+}
+
+.mainmessage p {
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 80%;
+}
+
+.icons p {
+	font-size: 1.2em;
+}
+
+footer i {
+	padding-right: 10px;
+}
+
+}
+
+/**********620px*******************************************/
+
+
+@media screen and (max-width: 620px) {
+
+header img {
+	width: 40%;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+li {
+	display: block;
+}
+
+}
+
+/**********MOBILE*******************************************/
+
+@media screen and (max-width: 480px) {
+
+body {
+	background: url(../img/background1.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position-x: 30%;
+	text-align: center;
+
+}
+
+header img {
+	width: 40%;
+}
+
+.container {
+	width: 85%;
+}
+
+h1 {
+	font-size: 350%;
+	line-height: 1em;
+}
+
+.mainmessage p {
+	width: 90%;
+	font-size: 1.3em;
+	margin: 0 auto;
+}
+
+ul p {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+li {
+	display: block;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+li img {
+	padding: 0px;
+}
+
+footer {
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer h2 {
+	font-size: 2em;
+	line-height: 1em;
 }
