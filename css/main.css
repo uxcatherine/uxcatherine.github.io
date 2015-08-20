@@ -1,56 +1,34 @@
- 
-*{
+* {
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+
 }
 
-html {
-	font-size: 100%
-}
-
-/*p {
-	font-size: 62.5%;
-}*/
+/**************SiteWide********************/
 
 body {
-	background: url(../img/background1.jpg) center center no-repeat fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: 'Lora', serif;
-	font-size: 1em;
-	font-weight: 400;
-	line-height: 1.3em;
-	color: white;
-	padding-bottom: 30px;
+	font-family: 'Merriweather', serif;
+	font-size: 16pt;
 }
 
-.container {
-	position: relative;
-	width: 70%;
-	max-width: 1170px;
-	margin: 0 auto;
-	padding-top: 15px;
-}
-
-.mainmessage p {
-	width: 60%;
-}
-
-header img {
-	width: 20%;
+p {
+	padding-top: 16px;
+	line-height: 1.4em;
 }
 
 h1 {
 	font-family: 'Sacramento', cursive;
-	font-size: 5.5em;
-	margin-bottom: 5px;
+	font-size: 80pt;
+	text-align: center;
+	color: #fff;
+	margin-top: 150px;
 }
 
 h2 {
 	font-family: 'Poiret One', sans-serif;
-	font-size: 2em;
-	margin: 20px 0 40px 0;
+	font-size: 30pt;
+	text-align: left;
+	color: black;
 }
 
 a {
@@ -58,140 +36,436 @@ a {
 	color: white;
 }
 
-.mainmessage {
-	margin-top: 74px;
-	padding-bottom: 38px;
+.projects a {
+	font-family: 'Patua One', serif;
+	font-size: 18pt;
+	color: #fff;
+	text-align: center;
+	background-color: #49d8d8;
+	padding: 7px 35px;
+	border-radius: 25px;
+
 }
 
-i {
+footer p {
+	font-family: 'Merriweather', serif;
+	font-size: 8pt;
 	color: white;
-	padding: 7px 5px 0 10px;
-}
-
-.icons li {
-	margin-bottom: 30px;
-}
-
-li {
-	display: inline-block;
-	width: 150px;
-	vertical-align: top;
-	padding-right: 20px;
-}
-
-li img {
-	width: 100px;
-	padding-left: 17px;
-}
-
-.icons p{
 	text-align: center;
-}
-
-/**********TABLET*******************************************/
-
-@media screen and (max-width: 768px) {
-
-header img {
-	width: 30%;
-}
-
-.container {
-	width: 85%;
-	max-width: 700px;
-}
-
-.mainmessage p {
-	font-size: 1em;
-	line-height: 1.5em;
-	width: 80%;
-}
-
-.icons p {
-	font-size: 1.2em;
-}
-
-footer i {
-	padding-right: 10px;
-}
-
-}
-
-/**********620px*******************************************/
-
-
-@media screen and (max-width: 620px) {
-
-header img {
-	width: 40%;
-}
-
-h1 {
-	font-size: 4em;
-}
-
-li {
-	display: block;
-}
-
-}
-
-/**********MOBILE*******************************************/
-
-@media screen and (max-width: 480px) {
-
-body {
-	background: url(../img/background1.jpg) center center no-repeat fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position-x: 30%;
-	text-align: center;
-
-}
-
-header img {
-	width: 40%;
-}
-
-.container {
-	width: 85%;
-}
-
-h1 {
-	font-size: 350%;
-	line-height: 1em;
-}
-
-.mainmessage p {
-	width: 90%;
-	font-size: 1.3em;
-	margin: 0 auto;
-}
-
-ul p {
-	text-align: center;
-	font-size: 1.5em;
-	line-height: 1em;
-}
-
-li {
-	display: block;
-	margin: 0 auto;
-	padding: 0px;
-}
-
-li img {
-	padding: 0px;
+	padding-bottom: 0px;
 }
 
 footer {
+	background-color: #34b0b3;
+	padding: 24px 0px;
+}
+
+.container {
 	width: 80%;
 	margin: 0 auto;
 }
 
-footer h2 {
-	font-size: 2em;
-	line-height: 1em;
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+/***---- NAV ------***/
+
+nav{
+	padding: 24px 0px;
+}
+
+nav img {
+	float: left;
+}
+
+nav ul {
+	float: right;
+}
+
+.hero li {
+	display: inline-block;
+	padding: 7px 14px;
+	font-family: 'Patua One', serif;
+	font-size: 14pt;
+	color: #fff;
+}
+
+.hero .lrnbtn {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 150px;
+}
+
+/***---- CONTACT INFO ---***/
+
+#contact {
+	background-color: #f13759;
+	color: white;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+#contact p { 
+	font-size: 12pt;
+}
+
+#contact h2 {
+	text-align: center;
+	color: white;
+}
+
+.contact_icons li {
+	display: inline-block;
+	padding: 0px 21px;
+}
+
+.contact_icons img {
+	border-radius: 50%;
+	margin-top: 42px;
+}
+
+/***************HOMEPAGE****************/
+
+/* ---- header ----- */
+
+header {
+	background: #34b0be url("../assets/images/background.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+header h2 {
+	text-align: center;
+	color: #fff;
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+/* ---- about ----- */
+
+.about {
+	background-color: #f0f0f1;
+	padding: 77px 0px;
+}
+
+.about p {
+	font-size: 12pt;
+}
+
+.profilepic img {
+	border-radius: 50%;
+	margin-right: 56px;
+	margin-bottom: 200px;
+}
+
+.profilepic {
+	float: left;
+}
+
+.aboutme {
+	color: black;
+}
+
+.aboutme a:link {
+	color: #34b0be;
+}
+
+.aboutme a:visited {
+	color: #34b0be;
+}
+
+#icons ul {
+	margin-left: 266px;
+}
+
+.icons li {
+	display: inline-block;
+	margin: 10px;
+	width: 18%;
+	text-align: center;
+	vertical-align: top;
+}	
+
+.icons p {
+	padding-top: 14px;
+}
+
+.icons img {
+	border-radius: 50%;
+}
+
+#icons {
+	width: 100%;
+	vertical-align: top;
+}
+
+/* ---- all projects ----- */
+
+.projects h2 {
+	/*padding-top: 135px;*/
+	color: white;
+}
+
+.projects a {
+	/*margin-bottom: 170px;*/
+}
+
+.projects p {
+	font-size: 13pt;
+	line-height: 1.4em;
+	color: white;
+	padding-bottom: 40px;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* ---- project 1 ----- */
+
+.project1 {
+	background-color: #f13759;
+	padding: 70px 0px;
+	overflow: hidden;
+}
+
+.project1img {
+	float: left;
+	width: 50%;
+}
+
+.project1img img {
+	width: 90%;
+}
+
+/* ---- project 2 ----- */
+
+.project2 {
+	background-color: #34b0be;
+	padding: 70px 0px;
+}
+
+.project2img {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.project2img img {
+	width: 90%;
+}
+
+.project2desc {
+
+}
+
+
+/* ---- project 3 ----- */
+
+.project3 {
+	background-color: #f0f0f1;
+	padding: 70px 0px;
+	color: black;
+}
+
+.project3img {
+	float: left;
+	width: 50%;
+}
+
+.project3img img {
+	width: 80%;
+}
+
+.project3 p, .project3 h2 {
+	color: black;
+}
+
+/*************BREAK POINT 940****************/
+
+@media only screen and (max-width: 940px){
+
+.container{
+	width: 90%;
+}
+
+.profilepic {
+	margin-bottom: 150px;
+}
+
+.icons li {
+	width: 22%;
+}
+
+}
+
+/************* Tablet ****************/
+@media only screen and (max-width: 768px){
+
+nav {
+	text-align: center;
+}
+
+
+.profilepic {
+	text-align: center;
+	float: none;
+	margin-bottom: 0px;
+}
+
+.profilepic img {
+	margin: 0px;
+	width: 250px;
+	border-radius: 50%;
+	margin-bottom: 0px;
+}
+
+.icons {
+	text-align: center;
+}
+
+#icons ul {
+	margin: 0px;
+}
+
+h2,p, .project1desc, .project2desc, .project3desc {
+	text-align: center;
+}
+
+.project1img img {
+	width: 80%;
+}
+
+.project1img, .project2img, .project3img {
+	float: none;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 14px;
+}
+
+}
+/************* BREAK POINT 515 **********/
+
+@media only screen and (max-width: 515px){
+
+nav img {
+	float: none;
+}
+
+nav ul {
+	float: none;
+}
+
+}
+
+/*************MOBILE PHONE**********/
+
+@media only screen and (max-width: 480px){
+
+
+.hero li {
+	display: inline-block;
+	padding: 30px 15px;
+	font-family: 'Patua One', serif;
+	font-size: 18pt;
+}
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 45pt;
+	margin-top: 120px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#icons ul {
+	margin-left: 0px;
+}
+
+.lrnbtn {
+	width: 100px;
+}
+
+p {
+	font-size: 16pt;
+	padding-top: 20px;
+}	
+.about {
+	text-align: center;
+}
+
+.aboutme{
+	float: none;
+}
+
+#icons {
+	text-align: center;
+}
+
+#icons li {
+	display: inline-block;
+	font-size: 14pt;
+	padding-top: 20px;
+	text-align: center;
+	width: 25%;
+}
+
+.icons li img {
+	width: 100px;
+}
+
+#contact li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+#contact img {
+	width: 100px;
+}
+
+footer p {
+	font-size: 10px;
+}
+
 }

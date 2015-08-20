@@ -1,0 +1,315 @@
+/*************** PROJECT 3 ****************/
+
+#pro3 header {
+	background: #f0f0f1;
+}
+
+nav a {
+	color: #34b0b3;
+}
+
+#pro3 .bkgrnd_colour {
+	background: #f0f0f1;
+}
+
+#pro3 h1 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 50pt;
+	text-align: center;
+	color: black;
+	margin: 30px 0px;
+}
+
+#pro3 .topimage img {
+	float: left;
+	padding-right: 30px;
+	margin-bottom: 30px;
+	width: 40%;
+}
+
+#pro3 h2 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 30pt;
+	text-align: left;
+	color: black;
+	margin-top: 28px;
+}
+
+#pro3 p {
+	color: black;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+	line-height: 1.5em;
+}
+
+
+#pro3 .icons p {
+	font-family: 'Merriweather', serif;
+	font-size: 10pt;
+	line-height: 1.4em;
+}
+
+#pro3 div {
+	padding: 15px 0px;
+}
+
+#pro3 .intro div {
+	padding: 0px;
+}
+
+#pro3 .icons li {
+	width: 12%;
+}
+
+#pro3 .icons img {
+	border-radius: 50%;
+}
+
+#pro3 img {
+	padding: 10px;
+}
+
+#pro3 .twopics, .onepic {
+	padding: 0px;
+}
+
+#pro3 .twopics img {
+	width: 400px;
+}
+
+#pro3 .onepic img {
+	width: 800px;
+}
+
+#pro3 .prototype a {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 16pt;
+	color: #fff;
+	text-align: center;
+	background-color: #49d8d8;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
+
+.prototype {
+	clear: both;
+}
+
+strong {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+.wireframes img {
+	float: left;
+}
+.software{
+	background-color: white;
+ }
+
+#pro3 .software h2, #pro2 .software p {
+	color: black;
+}
+
+#pro3 .project_nav {
+	background-color: #34b0be;
+}
+
+#pro3 .previous_chevron {
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+	color: white;
+}
+
+#pro3 .previous_text p {
+	color: white;
+	display: block;
+	padding: 0px;
+}
+
+#pro3 #contact .container h2 {
+	text-align: center;
+	color: white;
+}
+
+#contact p {
+	color: white;
+}
+
+#pro3 footer p {
+	color: white;
+	font-size: 8pt;
+}
+
+/*************BREAK POINT 1175!*****************/
+
+@media only screen and (max-width: 1175px){
+
+
+#pro3 #role {
+	float: left;
+}
+
+#pro3 .icons li {
+    width: 20%;
+}
+#pro3 .wireframes img {
+	float: none;
+}
+
+#pro3 .wireframes .twopics, .onepic {
+	text-align: center;
+}
+}
+
+/*************BREAK POINT 1090!*****************/
+
+@media only screen and (max-width: 1090px){
+
+
+#pro3 .twopics, .onepic {
+	text-align: center;
+	padding: 0px;
+}
+
+
+#pro3 .prototype {
+	text-align: center;
+}
+
+}
+
+/*************BREAK POINT 1055!*****************/
+
+@media only screen and (max-width: 1055px){
+
+
+#pro3 .onepic img {
+	width: 600px;
+}
+
+#pro3 .topimage img {
+	width: 60%;
+}
+}
+
+/************* Tablet ****************/
+@media only screen and (max-width: 835px){
+
+#pro3 .container {
+	width: 90%;
+}
+
+#pro3 img {
+	padding: 0px;
+}
+
+#pro3 .topimage img{
+	margin-bottom: 100px;
+}
+
+
+#pro3 .topimage {
+	margin-top: 28px;
+}
+
+#pro3 .container p {
+	text-align: left;
+	font-size: 16px;
+}
+
+#pro3 ul {
+	text-align: left;
+}
+
+#pro3 .icons li {
+	width: 16%;
+	text-align: center;
+}
+
+#pro3 .twopics, .onepic {
+	text-align: center;
+	padding: 0px;
+}
+
+#pro3 .twopics img {
+	padding: 20px 10px 0px 10px;
+}
+
+#pro3 .onepic img {	
+	width: 90%;
+	padding: 20px 10px 0px 10px;
+}
+
+
+#pro3 #contact h2 {
+	text-align: center;
+}
+
+#pro3 #contact p {
+	text-align: center;
+}
+
+#pro3 #contact ul {
+	text-align: center;
+}
+}
+
+/*************BREAK POINT 715!*****************/
+
+@media only screen and (max-width: 715px){
+
+#pro3 .topimage {
+	text-align: center;
+}
+
+#pro3 .topimage img{
+	float: none;
+	padding: 0px;
+	width: 90%;
+	margin-bottom: 0px;
+}
+
+/*#pro2 .challengerole h2 {
+	margin-top: 28px;
+}*/
+
+}
+
+/*************MOBILE PHONE**********/
+
+@media only screen and (max-width: 550px){
+
+#pro3 nav img {
+	float: none;
+}
+
+#pro3 nav ul {
+	float: none;
+	text-align: center;
+}
+
+#pro3 .topimage {
+	text-align: center;
+}
+
+#pro3 .topimage img {
+	float: none;
+	width: 90%;
+	padding-right: 0px;
+}
+
+#pro3 .icons li{
+	width: 26%;
+}
+
+#pro3 .icons p {
+	text-align: center;
+}
+
+#pro3 .onepic img {
+	width: 400px;
+}
+
+}

@@ -1,0 +1,318 @@
+/*************** PROJECT 2 ****************/
+
+#pro2 header {
+	background: #34b0be;
+}
+#pro2 .bkgrnd_colour {
+	background: #34b0be;
+}
+
+
+#pro2 h1 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 50pt;
+	text-align: center;
+	color: white;
+	margin: 30px 0px;
+}
+
+#pro2 .topimage img {
+	float: left;
+	padding-right: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+}
+
+#pro2 h2 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 30pt;
+	text-align: left;
+	color: white;
+	margin-top: 28px;
+}
+
+#pro2 p {
+	color: white;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+	line-height: 1.5em;
+}
+
+
+#pro2 .icons p {
+	font-family: 'Merriweather', serif;
+	font-size: 12pt;
+	line-height: 1.4em;
+}
+
+#pro2 div {
+	padding: 15px 0px;
+}
+
+#pro2 .intro div {
+	padding: 0px;
+}
+
+#pro2 .icons li {
+	width: 12%;
+}
+
+#pro2 .icons img {
+	border-radius: 50%;
+}
+
+#pro2 img {
+	padding: 10px;
+}
+
+#pro2 .twopics, .onepic {
+	padding: 0px;
+}
+
+#pro2 .twopics img {
+	width: 400px;
+}
+
+#pro2 .prototype a {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 16pt;
+	color: #fff;
+	text-align: center;
+	background-color: #49d8d8;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
+
+.prototype {
+	clear: both;
+}
+
+strong {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+
+.wireframes img {
+	float: left;
+}
+
+.software{
+	background-color: white;
+ }
+
+#pro2 .software h2, #pro2 .software p {
+	color: black;
+}
+
+#pro2 .project_nav {
+	background-color: #34b0be;
+}
+.previous {
+	float: left;
+}
+
+.next {
+	float: right;
+}
+
+.previous_chevron {
+	float: left;
+	color: white;
+	margin-right: 20px;
+	padding: 0px;
+}
+
+.previous_text {
+	float: left;
+}
+
+.previous_text p {
+	text-align: left;
+	color: white;
+	padding: 0px;
+}
+
+.next_chevron {
+	float: right;
+	color: white;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+.next_text {
+	float: right;
+}
+.next_text p {
+	text-align: right;
+	padding: 0px;
+}
+
+#pro2 #contact .container h2 {
+	text-align: center;
+}
+
+#pro2 footer p {
+	font-size: 8pt;
+}
+
+/*************BREAK POINT 1090!*****************/
+
+@media only screen and (max-width: 1090px){
+
+#pro2 .twopics, .onepic {
+	text-align: center;
+	padding: 0px;
+}
+
+
+#pro2 .prototype {
+	text-align: center;
+}
+
+}
+
+/*************BREAK POINT 1015!*****************/
+
+@media only screen and (max-width: 1055px){
+
+#pro2 #role {
+	float: left;
+}
+
+#pro2 .icons li {
+    width: 25%;
+}
+
+#pro2 .onepic img {
+	width: 600px;
+}
+
+}
+
+/************* Tablet ****************/
+@media only screen and (max-width: 768px){
+
+#pro2 .container {
+	width: 90%;
+}
+
+#pro2 img {
+	padding: 0px;
+}
+
+#pro2 .topimage img{
+	width: 60%;
+	margin-bottom: 50px;
+}
+
+#pro2 .challengerole h2 {
+	margin-top: 0px;
+}
+
+#pro2 #role li {
+	text-align: center;
+}
+
+#pro2 .container p {
+	text-align: left;
+	font-size: 16px;
+}
+
+#pro2 ul {
+	text-align: left;
+}
+
+#pro2 .icons li {
+	width: 25%;
+	text-align: center;
+}
+
+#pro2 .twopics img {
+	padding: 20px 10px 0px 10px;
+}
+
+#pro2 .onepic img {	
+	width: 90%;
+	padding: 20px 10px 0px 10px;
+}
+
+#pro2 .twopics, .onepic {
+	text-align: center;
+	padding: 0px;
+}
+
+#pro2 .onepic img {	
+	width: 90%;
+}
+
+#pro2 #contact h2 {
+	text-align: center;
+}
+
+#pro2 #contact p {
+	text-align: center;
+}
+
+#pro2 #contact ul {
+	text-align: center;
+}
+}
+
+/*************BREAK POINT 715!*****************/
+
+@media only screen and (max-width: 715px){
+
+#pro2 .topimage {
+	text-align: center;
+}
+
+#pro2 .topimage img{
+	float: none;
+	padding: 0px;
+	width: 90%;
+}
+
+#pro2 .challengerole h2 {
+	margin-top: 28px;
+}
+
+}
+
+
+/*************MOBILE PHONE**********/
+
+@media only screen and (max-width: 550px){
+
+#pro2 nav img {
+	float: none;
+}
+
+#pro2 nav ul {
+	float: none;
+	text-align: center;
+}
+
+#pro2 .topimage {
+	text-align: center;
+}
+
+#pro2 .topimage img {
+	float: none;
+	width: 90%;
+	padding-right: 0px;
+}
+
+#pro2 .icons li{
+	width: 26%;
+}
+
+#pro2 .icons p {
+	text-align: center;
+}
+
+#pro2 .onepic img {
+	width: 400px;
+}
+
+}

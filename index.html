@@ -1,58 +1,128 @@
 <!DOCTYPE html>
-<html>	
-	<head>
-		<meta charset="UTF-8"></meta>
-		<meta name="viewport" content="width=device-width">
-		<title>uxCatherine.com</title>		
-		<link rel="stylesheet" href="css/reset.min.css">
-		<link href='http://fonts.googleapis.com/css?family=Sacramento|Poiret+One|Lora:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/main.css">		
-	</head>
-	<body>
-		<div class="container">
-	<header>
-		<img src="img/logo_uxcatherine.svg"/>
-	</header>
-		<section class="mainmessage">
-				<h1>Catherine Wood </h1>
-				<h2>UX Designer</h2>
-				<p>I believe that products, websites, apps and services are best designed when they’re designed with people in mind. I’m interested in working on tough UX challenges with a user-centered design team. <br><a href="mailto:uxcatherine@gmail.com">Feel free to contact me.</a>
-				</p>
-		</section>
-		<ul class="icons">
-			<li class="research">
-				<img src="img/icon_research.svg" />
-				<p>UX Research</p>
-			</li>
-			<li>
-				<img src="img/icon_ia.svg" />
-				<p>Information Architecture</p>
-			</li>
-			<li>
-				<img src="img/icon_ixd.svg" />
-				<p>Interaction Design</p>
-			</li>
-		</ul>
-		<footer>
-		<h2>Check back soon for more details.<br>
-In the meantime, follow me: <a href="http://www.twitter.com/uxcatherine"><i class="fa fa-twitter"></i></a> 
-<a href="https://ca.linkedin.com/in/uxcatherine"><i class="fa fa-linkedin"></i></a>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"></meta>
+	<meta name="viewport" content="width=device-width">
+	<title>Catherine Wood: UX Designer</title>	
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Patua+One|Sacramento|Poiret+One|Merriweather' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="favicon.ico"/>
 
-		</h2>
-		</footer>
+</head>
+
+<body>
+	<header class="hero clearfix">
+	<nav class="container clearfix">
+		<a href="index.html"><img src="assets/icons/logo3.png"/></a>
+		<ul>
+			<li><a href="#about" id="abt_mi">About</a></li>
+			<li><a href="#projects" id="pro_mi">Projects</li>
+			<li><a href="#contact" id="cont_mi">Contact</a></li>
+		</ul>
+	</nav>
+		<div>
+		<h1>Catherine Wood</h1>
+		<h2>UX Designer</h2>
 		</div>
-	</body>
+		<a href="#about"><img src="assets/icons/btn_learnmore.png" class="lrnbtn hvr-bounce-in"></a>
+	</header>
+	<main>
+		<div class="about" id="about">
+			<section class="container clearfix">
+				<div class="profilepic">
+					<img src="assets/images/profile_pic.jpg">
+				</div>
+				<div class="aboutme">
+					<h2>Hi! I'm Catherine.</h2>
+					<p>As a UX designer, I employ a user-centered design thinking approach to tackle tough design problems. My experience includes working within an agile environment, conducting discovery and validation research, working with startups, designing onboarding flows, and presenting work to clients. </p>
+					<p>
+					Prior to becoming a UX designer, I worked within professional associations for over 8 years, implementing a variety of projects and initiatives. From designing marketing materials, to producing webinars, to launching education and mentorship programs, the member-centered association environment instilled in me a strong user-focused foundation, which I routinely draw upon in my UX work.</p>
+					<p>
+					I’m currently looking for challenging work with a user-centered design team. Check out <a href="assets/resume_CatherineWood_uxcatherine.pdf">my resume</a>, or <a href="#contact">send me an email</a>. I’d love to hear from you! 
+					<div id="icons">
+						<ul class="icons">
+							<li><img src="assets/icons/icon_research.png"/><p>UX Research</p></li>
+							<li><img src="assets/icons/icon_ia.png"/><p>Information Architecture</p></li>
+							<li><img src="assets/icons/icon_ixd.png"/><p>Interaction Design</p></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="projects" id="projects">
+			<div class="project1 clearfix">
+				<div class="container">
+					<div class= "project1img">
+						<img src="assets/images/pro1/img_pb_hp_mockup2.png">
+					</div>
+					<div class="project1desc">
+						<h2>Pulseband Health Wearable</h2>
+						<p>The Pulseband is a wearable technology device that tracks the user’s heart health. As a design team, we developed both a mobile app for the patient, and a web app for the health care professional. </p>
+						<a href="pulseband.html" class="hvr-grow">View</a>
+					</div>
+				</div>
+			</div>
+			<div class="project2">
+				<div class="container clearfix">
+					<div class= "project2img">
+						<img src="assets/images/pro2/img_kt_hp_mockup.gif">
+					</div>
+					<div class="project2desc">
+						<h2>KenshoTree </h2>
+						<p>KenshoTree is a website that matches executives with qualified leadership, management, and wellness coaches. During this project we designed the onboarding and search flow for executive clients.</p>
+						<a href="kenshotree.html" class="hvr-grow">View</a>
+					</div>
+				</div>
+			</div>
+			<div class="project3">
+				<div class="container clearfix">
+					<div class="project3img">
+						<img src="assets/images/pro3/img_ft_hp_mockup.gif">
+					</div>
+					<div class="project3desc">
+						<h2>The FoodTrace</h2>
+						<p>FoodTrace is website that connects food sellers with food buyers. For this project we used a mobile-first approach to focus the feature set, validate ideas and organize content.</p>
+						<a href="foodtrace.html" class="hvr-grow">View</a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<section id="contact">
+				<div class="container">
+					<h2>Say Hi!</h2>
+					<p>Email, follow or connect. I've love to hear from you!</p>
+					<ul class="contact_icons">
+						<li><a href="mailto:uxcatherine@gmail.com" class="hvr-grow"><img src="assets/icons/icon_email.png"></a></li>
+						<li><a href="http://www.twitter.com/uxcatherine" class="hvr-grow"><img src="assets/icons/icon_twitter.png"></a></li>
+						<li><a href="https://ca.linkedin.com/in/uxcatherine" class="hvr-grow"><img src="assets/icons/icon_linkedin.png"></a></li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<p> Copyright &copy; 2015 Catherine Wood. Made with <i class="fa fa-heart"></i>
+	in Toronto.</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.localScroll.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-66350856-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+</body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
