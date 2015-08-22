@@ -4,16 +4,24 @@
 	background: #34b0be;
 }
 #pro2 .bkgrnd_colour {
-	background: #34b0be;
+	background: #f0f0f1;
 }
 
+#pro2 .contentblock {
+	width: 80%;
+	margin: 0 auto;
+}
 
 #pro2 h1 {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 50pt;
 	text-align: center;
-	color: white;
+	color: #fff;
 	margin: 30px 0px;
+}
+
+#pro2 .challengerole h2, #pro2 .challengerole p {
+	color: #fff;
 }
 
 #pro2 .topimage img {
@@ -27,12 +35,12 @@
 	font-family: 'Poiret One', sans-serif;
 	font-size: 30pt;
 	text-align: left;
-	color: white;
+	color: #000;
 	margin-top: 28px;
 }
 
 #pro2 p {
-	color: white;
+	color: #000;
 	font-size: 14px;
 	font-family: 'Merriweather', serif;
 	line-height: 1.5em;
@@ -70,7 +78,7 @@
 }
 
 #pro2 .twopics img {
-	width: 400px;
+	width: 360px;
 }
 
 #pro2 .prototype a {
@@ -97,17 +105,11 @@ strong {
 	float: left;
 }
 
-.software{
-	background-color: white;
- }
-
-#pro2 .software h2, #pro2 .software p {
-	color: black;
-}
 
 #pro2 .project_nav {
 	background-color: #34b0be;
 }
+
 .previous {
 	float: left;
 }
@@ -127,7 +129,7 @@ strong {
 	float: left;
 }
 
-.previous_text p {
+#pro2 .previous_text p {
 	text-align: left;
 	color: white;
 	padding: 0px;
@@ -143,17 +145,25 @@ strong {
 .next_text {
 	float: right;
 }
-.next_text p {
+
+#pro2 .next_text p {
 	text-align: right;
 	padding: 0px;
+	color: #fff;
 }
 
 #pro2 #contact .container h2 {
 	text-align: center;
+	color: #fff;
+}
+
+#pro2 #contact p {
+	color: #fff;
 }
 
 #pro2 footer p {
 	font-size: 8pt;
+	color: #fff;
 }
 
 /*************BREAK POINT 1090!*****************/

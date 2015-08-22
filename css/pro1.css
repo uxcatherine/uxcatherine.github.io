@@ -4,7 +4,7 @@
 	background: #f13759;
 }
 #pro1 .bkgrnd_colour {
-	background: #f13759;
+	background: #f0f0f1;
 }
 
 #pro1 h1 {
@@ -15,6 +15,14 @@
 	margin: 30px 0px;
 }
 
+#pro1 header h2 {
+	color: #fff;
+}
+
+#pro1 header p {
+	color: #fff;
+}
+
 #pro1 .topimage img {
 	float: left;
 	padding-right: 30px;
@@ -22,19 +30,24 @@
 	width: 40%;
 }
 
+#pro1 .contentblock{
+	width: 80%;
+	margin: 0 auto;
+}
+
 #pro1 h2 {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 30pt;
 	text-align: left;
-	color: white;
+	color: #000;
 	margin-top: 28px;
 }
 
 #pro1 p {
-	color: white;
+	color: #000;
 	font-size: 14px;
 	font-family: 'Merriweather', serif;
-	line-height: 1.5em;
+	line-height: 1.6em;
 }
 
 
@@ -69,11 +82,11 @@
 }
 
 #pro1 .twopics img {
-	width: 400px;
+	width: 360px;
 }
 
 #pro1 .onepic img {
-	width: 800px;
+	width: 725px;
 }
 
 strong {
@@ -99,10 +112,11 @@ strong {
 	margin-left: 20px;
 }
 
-.next_text p {
+#pro1 .next_text p {
 	text-align: right;
 	float: right;
 	padding: 0px;
+	color: #fff;
 }
 
 #contact {
@@ -111,10 +125,16 @@ strong {
 
 #pro1 #contact .container h2 {
 	text-align: center;
+	color: #fff;
+}
+
+#pro1 #contact .container p {
+	color: #fff;
 }
 
 #pro1 footer p {
 	font-size: 8pt;
+	color: #fff;
 }
 
 /*************BREAK POINT 1090!*****************/
