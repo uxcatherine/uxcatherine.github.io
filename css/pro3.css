@@ -66,7 +66,9 @@ nav a {
 }
 
 #pro3 .icons li {
-	width: 12%;
+	width: 13%;
+	text-align: center;
+	vertical-align: top;
 }
 
 #pro3 .icons img {
@@ -282,6 +284,10 @@ strong {
 
 @media only screen and (max-width: 550px){
 
+#pro3 .contentblock{
+	width: 100%;
+}
+
 #pro3 nav img {
 	float: none;
 }
@@ -302,15 +308,35 @@ strong {
 }
 
 #pro3 .icons li{
-	width: 26%;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#role .icons img {
+	width: 80px;
 }
 
 #pro3 .icons p {
 	text-align: center;
 }
 
+#pro3 .twopics img {
+	width: 300px;
+}
+
 #pro3 .onepic img {
-	width: 400px;
+	width: 300px;
+}
+
+}
+
+/*************MOBILE PHONE 320**********/
+
+@media only screen and (max-width: 320px){
+
+#pro3 .contentblock{
+	width: 100%;
 }
 
 }

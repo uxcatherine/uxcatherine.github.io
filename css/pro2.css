@@ -62,7 +62,8 @@
 }
 
 #pro2 .icons li {
-	width: 12%;
+	width: 13%;
+	text-align: center;
 }
 
 #pro2 .icons img {
@@ -191,7 +192,7 @@ strong {
 }
 
 #pro2 .icons li {
-    width: 25%;
+    width: 40%;
 }
 
 #pro2 .onepic img {
@@ -303,6 +304,10 @@ strong {
 	text-align: center;
 }
 
+#pro2 h1{
+	font-size: 45pt;
+}
+
 #pro2 .topimage {
 	text-align: center;
 }
@@ -313,16 +318,40 @@ strong {
 	padding-right: 0px;
 }
 
+#pro2 .contentblock{
+	width: 100%;
+}
+
 #pro2 .icons li{
-	width: 26%;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#role .icons img {
+	width: 80px;
 }
 
 #pro2 .icons p {
 	text-align: center;
 }
 
+#pro2 .twopics img {
+	width: 300px;
+}
+
 #pro2 .onepic img {
-	width: 400px;
+	width: 300px;
+}
+
+}
+
+/*************MOBILE PHONE 320**********/
+
+@media only screen and (max-width: 320px){
+
+#pro2 .contentblock{
+	width: 100%;
 }
 
 }

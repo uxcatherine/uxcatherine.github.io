@@ -66,7 +66,8 @@
 }
 
 #pro1 .icons li {
-	width: 12%;
+	width: 13%;
+	text-align: center;
 }
 
 #pro1 .icons img {
@@ -249,16 +250,39 @@ strong {
 	padding-right: 0px;
 }
 
+#pro1 .contentblock{
+	width: 100%;
+}
+
 #pro1 .role li{
-	width: 26%;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#role .icons img {
+	width: 80px;
 }
 
 #pro1 .role li p {
 	text-align: center;
 }
 
-#pro1 .onepic img {
-	width: 400px;
+#pro1 .twopics img {
+	width: 300px;
 }
 
+#pro1 .onepic img {
+	width: 300px;
+}
+
+}
+
+/*************MOBILE PHONE 320**********/
+
+@media only screen and (max-width: 320px){
+
+#pro1 .contentblock{
+	width: 100%;
+}
 }

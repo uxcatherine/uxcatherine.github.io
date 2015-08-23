@@ -179,7 +179,7 @@ header h2 {
 .profilepic img {
 	border-radius: 50%;
 	margin-right: 56px;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 .profilepic {
@@ -194,7 +194,7 @@ header h2 {
 	color: #34b0be;
 }
 
-#icons ul {
+/*#icons ul {
 	margin-left: 266px;
 }
 
@@ -217,7 +217,7 @@ header h2 {
 #icons {
 	width: 100%;
 	vertical-align: top;
-}
+}*/
 
 /* ---- all projects ----- */
 
@@ -290,10 +290,6 @@ header h2 {
 	width: 90%;
 }
 
-.project2desc {
-
-}
-
 
 /* ---- project 3 ----- */
 
@@ -324,13 +320,13 @@ header h2 {
 	width: 90%;
 }
 
-.profilepic {
-	margin-bottom: 150px;
+.profilepic img {
+	margin-bottom: 175px;
 }
 
-.icons li {
+/*.icons li {
 	width: 22%;
-}
+}*/
 
 }
 
@@ -355,13 +351,13 @@ nav {
 	margin-bottom: 0px;
 }
 
-.icons {
+/*.icons {
 	text-align: center;
 }
 
 #icons ul {
 	margin: 0px;
-}
+}*/
 
 h2,p, .project1desc, .project2desc, .project3desc {
 	text-align: center;
@@ -415,18 +411,23 @@ h2 {
 	font-size: 30px;
 }
 
-#icons ul {
+/*#icons ul {
 	margin-left: 0px;
-}
+}*/
 
 .lrnbtn {
 	width: 100px;
 }
 
-p {
-	font-size: 16pt;
+.container p {
+	font-size: 13pt;
 	padding-top: 20px;
 }	
+
+#contact p {
+	font-size: 13pt;
+}
+
 .about {
 	text-align: center;
 }
@@ -435,24 +436,25 @@ p {
 	float: none;
 }
 
-#icons {
+/*#icons {
 	text-align: center;
 }
 
 #icons li {
-	display: inline-block;
+	display: block;
 	font-size: 14pt;
 	padding-top: 20px;
 	text-align: center;
-	width: 25%;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .icons li img {
 	width: 100px;
-}
+}*/
 
 #contact li {
-	display: inline-block;
+	display: block;
 	padding: 0px 10px;
 }
 
@@ -464,4 +466,53 @@ footer p {
 	font-size: 10px;
 }
 
+}
+
+/*************MOBILE PHONE 320**********/
+
+@media only screen and (max-width: 320px){
+
+
+.hero li {
+	font-size: 12pt;
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 20pt;
+}
+
+.hero .lrnbtn {
+	margin-top: 60px;
+	width: 70px;
+}
+
+.profilepic img {
+	width: 150px;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+/*#icons li {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+#icons li img {
+	width: 80px;
+}*/
+
+#contact li{
+	display: block;
+	margin: 0 auto;
+}
+
+#contact img {
+	width: 80px;
+}
 }
