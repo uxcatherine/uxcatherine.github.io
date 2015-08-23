@@ -36,7 +36,7 @@ a {
 	color: white;
 }
 
-.projects a {
+.project1desc a, .project2desc a, .project3desc a {
 	font-family: 'Patua One', serif;
 	font-size: 18pt;
 	color: #fff;
